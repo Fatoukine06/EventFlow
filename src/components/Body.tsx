@@ -29,13 +29,7 @@ const statutData = [
     { name: "Terminé", value: 29, color: "#C4A48A" },
 ];
 
-const recentEvents = [
-    { title: "Festival des Rythmes Africains", cat: "Musique",      date: "12 Mai", participants: 340,  status: "À venir" },
-    { title: "Sommet Tech & Innovation",        cat: "Conférence",  date: "18 Mai", participants: 1200, status: "À venir" },
-    { title: "Expo Diaspora & Identité",        cat: "Art",         date: "1 Juin", participants: 85,   status: "À venir" },
-    { title: "Atelier Entrepreneuriat",         cat: "Conférence",  date: "24 Mai", participants: 62,   status: "Complet" },
-    { title: "Gala de Clôture Culture",         cat: "Musique",     date: "31 Mai", participants: 180,  status: "À venir" },
-];
+
 
 type PayloadItem = {
     name: string;
