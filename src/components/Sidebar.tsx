@@ -1,9 +1,7 @@
 import { useState } from "react";
 import {
-    LayoutDashboard, Calendar, Users, BarChart2, Bell, Search,
-    TrendingUp, TrendingDown, Plus, Star, Settings,
-    LogOut, User, Menu, X, ChevronRight, ChevronDown,
-    RotateCcw, Sun
+    LayoutDashboard, Calendar, Users, BarChart2, Star, Settings,
+    LogOut, User
 } from "lucide-react";
 export default function Sidebar(){
     const [sidebarOpen, setSidebarOpen] = useState(true);
