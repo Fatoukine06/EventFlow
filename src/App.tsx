@@ -1,11 +1,12 @@
-
 import APropos from "./components/APropos"
+
+
 
 function App() {
   return (
-    <>
-      <APropos />
-    </>
+    <div className="h-screen w-full bg-[#f9b785] flex flex-col justify-center items-center gap-10">
+      <APropos/>
+    </div>
   )
 }
 
