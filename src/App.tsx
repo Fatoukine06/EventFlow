@@ -1,3 +1,4 @@
+import Planning from "./components/Planning"
 
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
 
   return (
     <>
-      
+      <Planning/>
     </>
   )
 }
