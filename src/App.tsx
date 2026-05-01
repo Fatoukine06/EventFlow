@@ -1,10 +1,7 @@
 import APropos from "./components/APropos"
-
-
-
 function App() {
   return (
-    <div className="  h-screen w-full font-serif">
+    <div className="  font-serif h-screen w-full">
       <APropos/>
     </div>
   )
