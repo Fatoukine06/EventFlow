@@ -51,7 +51,7 @@ export default function Sidebar(){
         <aside className={`
             flex flex-col bg-white border-r border-[#e5c19b] shrink-0 overflow-hidden
             transition-all duration-300
-            ${sidebarOpen ? "w-56" : "w-0"}
+            ${sidebarOpen ? "w-51" : "w-0"}
         `}>
     
             <div className="px-5 py-4 border-b border-[#e5c19b] flex items-center justify-between">
