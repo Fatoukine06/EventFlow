@@ -11,15 +11,12 @@ export default function Connexion() {
                         <h1 className="text-2xl font-semibold text-[#533722]">
                             Event<span className="text-[#f9b785]">Flow</span>
                         </h1>
-
                         <h2 className="text-lg font-light text-[#533722]">
                             Bienvenue !!
                         </h2>
-
                         <h2 className="text-xl font-medium text-[#533722]">
                             Connectez-vous
                         </h2>
-
                         <label className="text-[#533722]">Email :</label>
                         <input 
                             type="email" 
