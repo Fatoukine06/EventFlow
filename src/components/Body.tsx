@@ -91,9 +91,6 @@ export default function Body(){
                             <option>Cette semaine</option>
                         <option>Ce mois</option>
                     </select>
-                    <div className='flex items-center justify-center bg-[#e5c19b] text-[#3E2514] font-semibold py-1 text-[13px] px-3 rounded-lg cursor-pointer hover:bg-[#d4b08a] '>
-                        + Créer un événement
-                    </div>
                 </div>
             </div>
             <div className="flex flex-row p-7 gap-10 ">
