@@ -1,11 +1,11 @@
 
 
+import Temoignages from './components/Temoignages'
+
 function App() {
-
-
   return (
     <>
-      
+      <Temoignages />
     </>
   )
 }
