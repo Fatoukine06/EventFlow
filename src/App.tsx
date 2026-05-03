@@ -4,22 +4,14 @@ import TabBord from "./components/TabBord"
 import { Routes, Route, BrowserRouter } from "react-router-dom"
 import Footer from "./components/Footer"
 import Creer from "./components/Creer"
+import Navbar from "./components/Navbar";
+
 function App() {
-
-
   return (
     <>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<TabBord />} />
-        <Route path="/Page" element={<Page />} />
-      </Routes>
-    </BrowserRouter>
-    <Footer/>
-    <Creer/>
-      
+      <Navbar />
     </>
-  )
+  );
 }
 
 export default App
