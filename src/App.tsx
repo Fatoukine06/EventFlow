@@ -1,3 +1,4 @@
+import EventsGrid from "./components/Evenements"
 
 import Page from "./components/Page"
 import TabBord from "./components/TabBord"
@@ -9,7 +10,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <Navbar />
+      <EventsGrid/>
     </>
   );
 }
