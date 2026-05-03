@@ -2,6 +2,8 @@
 import Page from "./components/Page"
 import TabBord from "./components/TabBord"
 import { Routes, Route, BrowserRouter } from "react-router-dom"
+import Footer from "./components/Footer"
+import Creer from "./components/Creer"
 function App() {
 
 
@@ -13,6 +15,8 @@ function App() {
         <Route path="/Page" element={<Page />} />
       </Routes>
     </BrowserRouter>
+    <Footer/>
+    <Creer/>
       
     </>
   )
