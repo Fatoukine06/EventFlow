@@ -1,22 +1,11 @@
-import Planning from "./components/Planning"
-import EventsGrid from "./components/Evenements"
-
-import Page from "./components/Page"
-import TabBord from "./components/TabBord"
-import { Routes, Route, BrowserRouter } from "react-router-dom"
-import Footer from "./components/Footer"
-import Creer from "./components/Creer"
-import Navbar from "./components/Navbar";
-
-import Temoignages from './components/Temoignages'
+import APropos from "./components/APropos"
 
 function App() {
   return (
-    <>
-      <Temoignages />
-      <EventsGrid/>
-    </>
-  );
+    <div className="  font-serif h-screen w-full">
+      <APropos/>
+    </div>
+  )
 }
 
 export default App
