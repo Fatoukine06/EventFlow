@@ -1,8 +1,8 @@
 import { ArrowRight } from 'lucide-react';
-
+import { Link } from 'react-router-dom';
 function HeroTitle() {
   return (
-    <h1 className="font-serif font-bold text-[#2C1A0E] text-[5.5rem] leading-[1.05] tracking-tight max-w-6xl">
+    <h1 className="font-serif font-bold text-[#2C1A0E] text-6xl mt-5 leading-[1.05] tracking-tight max-w-6xl  ">
       Créez des événements
       <br />
       qui{' '}
@@ -75,7 +75,9 @@ export default function Hero() {
         de bord.
       </HeroSubtitle>
       <div className="mt-10 flex items-center gap-4 flex-wrap justify-center">
-        <HeroCTAButton>Créer mon premier événement</HeroCTAButton>
+        <Link to="/Creer">
+          <HeroCTAButton>Créer mon premier événement</HeroCTAButton>
+        </Link>
         <OutlineButton>Découvrir les événements</OutlineButton>
       </div>
       <StatsBlock stats={stats} />

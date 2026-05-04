@@ -1,7 +1,11 @@
 import img from '../assets/img2.webp'
 import { Link } from 'react-router-dom'
-
+import { useNavigate } from 'react-router-dom';
 export default function Inscription() {
+    const navigate = useNavigate();
+    const handleSubmit = () => {
+        navigate(-1);
+    };
     return (
         <div className="bg-[#f8dfcc85] min-h-screen flex items-center justify-center px-4">
             <div className="w-full max-w-6xl bg-white border border-[#f9b785] rounded-[30px] flex flex-col md:flex-row overflow-hidden">
@@ -39,7 +43,8 @@ export default function Inscription() {
                         />
 
                         <div className="flex justify-center mt-2">
-                            <button className="bg-[#f9b785] text-white rounded-[20px] py-2 px-6 hover:bg-[#f9b785cc] transition-colors duration-300">
+                            <button onClick={handleSubmit}
+                                className="bg-[#f9b785] text-white rounded-[20px] py-2 px-6 hover:bg-[#f9b785cc] transition-colors duration-300">
                                 S'inscrire
                             </button>
                         </div>
