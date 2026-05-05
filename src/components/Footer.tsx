@@ -44,7 +44,7 @@ export default function Footer() {
             </h1>
 
             <p className="text-[#8C6E58] text-xs md:text-sm mt-2">
-            © 2025 EventFlow - Tous droits réservés.
+            © 2026 EventFlow - Tous droits réservés.
             </p>
         </div>
 
